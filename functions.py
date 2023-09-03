@@ -3,8 +3,6 @@ FILEPATH2 = "done_todos.txt"
 
 
 def get_todos(filepath=FILEPATH):
-    """ Reads the text file and returns the
-    list of todo items"""
     with open(filepath, 'r') as file_local:
         todos_local = file_local.readlines()
     return todos_local
@@ -17,8 +15,6 @@ def write_todos(todos_arg, filepath=FILEPATH):
 
 
 def get_done_todos(filepath=FILEPATH2):
-    """ Reads the text file and returns the
-    list of todo items"""
     with open(filepath, 'r') as file_local:
         done_todos_local = file_local.readlines()
     return done_todos_local
