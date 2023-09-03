@@ -24,7 +24,7 @@ for index, todo in enumerate(todos):
         del st.session_state[todo]
         st.experimental_rerun()
 #st.write("")
-st.text_input(label_visibility="todo_input", placeholder="Введи нове завдання",
+st.text_input(label="", placeholder="Введи нове завдання",
               on_change=add_todo, key='new_todo')
 st.subheader("")
 st.subheader("")
