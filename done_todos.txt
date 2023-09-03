@@ -7,3 +7,4 @@ Write the program
 win the game
 Сходити на дежурство
 Дежурство
+Купити їжу
