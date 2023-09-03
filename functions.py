@@ -1,5 +1,7 @@
 FILEPATH = "todos.txt"
 FILEPATH2 = "done_todos.txt"
+
+
 def get_todos(filepath=FILEPATH):
     """ Reads the text file and returns the
     list of todo items"""
@@ -12,6 +14,7 @@ def write_todos(todos_arg, filepath=FILEPATH):
     """ Writes todo items list in the text file"""
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
+
 
 def get_done_todos(filepath=FILEPATH2):
     """ Reads the text file and returns the
